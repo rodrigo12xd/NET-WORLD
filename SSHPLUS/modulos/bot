@@ -2279,7 +2279,7 @@ while :; do
                     [[ "$_erro" == '1' ]] && break
                     echo "Nome: ${message_text[$id]}" >$CAD_ARQ
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text 'Informe o user dele [Ex: @crazy_vpn]:' \
+                        --text 'Informe o user dele [Ex: @Jeffssh]:' \
                         --reply_markup "$(ShellBot.ForceReply)"
                     ;;
                 'Informe o user dele [Ex: @crazy_vpn]:')
